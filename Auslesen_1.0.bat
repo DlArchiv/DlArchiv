@@ -1,1 +1,0 @@
-for /f "delims=?" %%i in ('dir /b /a /s "d:\*.avi" "d:\*.mkv"') do @echo %%~ni>>"D:\MeinArchiv.txt"
