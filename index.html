@@ -69,6 +69,9 @@ $( document ).ready(function() {
 						<td><textarea name="Text" id="filmname" class="Bereich"
 								rows="10" cols="50"></textarea></td>
 					</tr>
+                    
+          
+                    
 					<tr>
 						<td align="right">Formular:</td>
 						<td><input type="submit" class="Button" id="b_submitRefresh"
@@ -77,9 +80,36 @@ $( document ).ready(function() {
 					</tr>
 				</table>
 			</form>
+            
+            
+     <form action="upload.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="dateiupload">
+    <input type="submit" name="btn[upload]">
+</form>
 			</p>
 		</div>
-		<div id="tabs-2"></div>
+		
+        
+        <div id="tabs-2"> 
+        <p>
+			
+						<td align="right">Nickname:</td>
+						<td><input name="Nickname" id="filmnickname" type="text"
+							class="Feld" size="30" maxlength="30"></td>
+					</tr>
+                    </table>
+			
+            <p>&nbsp;</p>
+            <tr>
+			  <td align="right">Formular:</td>
+						<td><input type="submit" class="Button" id="b_submitRefresh"
+							value="Absenden"> <input type="reset" class="Button"
+							value="Abbrechen"></td>
+		  </tr>
+		  </p>
+            
+      </div>
+       
 		<div id="tabs-3"></div>
 	</div>
 
